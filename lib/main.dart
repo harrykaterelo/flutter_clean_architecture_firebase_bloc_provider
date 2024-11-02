@@ -1,12 +1,12 @@
 import 'dart:async';
 
-import 'package:custom_chat_clean_architecture_with_login_firebase/operations/auth/data/data_sources/auth_remote_data_source.dart';
-import 'package:custom_chat_clean_architecture_with_login_firebase/operations/auth/domain/use_cases/sign_out_use_case.dart';
-import 'package:custom_chat_clean_architecture_with_login_firebase/operations/auth/presentation/screens/sign_in_screen.dart';
-import 'package:custom_chat_clean_architecture_with_login_firebase/screens/chat/chat_tab_picker.dart';
-import 'package:custom_chat_clean_architecture_with_login_firebase/screens/chat/regular_chat/immutable/chat_graphics_class.dart';
+import 'operations/auth/data/data_sources/auth_remote_data_source.dart';
+import 'operations/auth/domain/use_cases/sign_out_use_case.dart';
+import 'operations/auth/presentation/screens/sign_in_screen.dart';
+import 'screens/chat/chat_tab_picker.dart';
+import 'screens/chat/regular_chat/immutable/chat_graphics_class.dart';
 import 'screens/example_chat_tiles.dart';
-import 'package:custom_chat_clean_architecture_with_login_firebase/screens/theme.dart';
+import 'screens/theme.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
